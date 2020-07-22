@@ -1,0 +1,73 @@
+## Env
+X_GOOGLE_WORKER_PORT=8091
+GCLOUD_PROJECT=[GCP_PROJECT]
+X_GOOGLE_LOAD_ON_START=false
+X_GOOGLE_FUNCTION_VERSION=3
+CODE_LOCATION=/srv
+X_GOOGLE_ENTRY_POINT=Env
+X_GOOGLE_FUNCTION_REGION=us-central1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NODE_ENV=production
+X_GOOGLE_CODE_LOCATION=/srv
+SUPERVISOR_INTERNAL_PORT=8081
+ENTRY_POINT=Env
+WORKER_PORT=8091
+SUPERVISOR_HOSTNAME=supervisor
+X_GOOGLE_FUNCTION_NAME=env111
+X_GOOGLE_GCLOUD_PROJECT=[GCP_PROJECT]
+FUNCTION_TRIGGER_TYPE=HTTP_TRIGGER
+X_GOOGLE_FUNCTION_TRIGGER_TYPE=HTTP_TRIGGER
+X_GOOGLE_SUPERVISOR_INTERNAL_PORT=8081
+X_GOOGLE_CONTAINER_LOGGING_ENABLED=true
+GCP_PROJECT=[GCP_PROJECT]
+FUNCTION_NAME=env111
+DEBIAN_FRONTEND=noninteractive
+HOME=/root
+FUNCTION_MEMORY_MB=256
+PWD=/srv/files/
+FUNCTION_REGION=us-central1
+PORT=8080
+X_GOOGLE_SUPERVISOR_HOSTNAME=supervisor
+FUNCTION_TIMEOUT_SEC=60
+X_GOOGLE_GCP_PROJECT=[GCP_PROJECT]
+X_GOOGLE_FUNCTION_IDENTITY=[GCP_PROJECT]@appspot.gserviceaccount.com
+FUNCTION_IDENTITY=[GCP_PROJECT]@appspot.gserviceaccount.com
+X_GOOGLE_FUNCTION_MEMORY_MB=256
+X_GOOGLE_FUNCTION_TIMEOUT_SEC=60
+
+## Metadata
+### project
+project/attributes/?recursive=true: 
+project/attributes/disable-legacy-endpoints: 
+project/attributes/enable-oslogin: 
+project/attributes/vmdnssetting: 
+project/attributes/ssh-keys: 
+project/numeric-project-id: [GCP_PROJECT_NUM]
+project/project-id: [GCP_PROJECT]
+### instance
+instance/attributes/?recursive=true: 
+instance/attributes/enable-oslogin: 
+instance/attributes/vmdnssetting: 
+instance/attributes/ssh-keys: 
+instance/cpu-platform: 
+instance/description: 
+instance/disks/?recursive=true: 
+instance/guest-attributes/?recursive=true: 
+instance/hostname: 
+instance/id: [INSTANCE_ID]
+instance/machine-type: 
+instance/name: 
+instance/network-interfaces/?recursive=true: 
+instance/network-interfaces/0/access-configs/0/external-ip: 
+instance/network-interfaces/0/forwarded-ips/?recursive=true: 
+instance/scheduling/?recursive=true: 
+instance/scheduling/on-host-maintenance: 
+instance/scheduling/automatic-restart: 
+instance/scheduling/preemptible: 
+instance/maintenance-event: 
+instance/service-accounts/?recursive=true: [SERVICE_ACCOUNTS]
+instance/service-accounts/default/email: [GCP_PROJECT]@appspot.gserviceaccount.com
+instance/service-accounts/default/token: [TOKEN]
+instance/service-accounts/default/identity: 
+instance/tags: 
+instance/zone: projects/[GCP_PROJECT_NUM]/zones/[ZONE]

@@ -1,0 +1,49 @@
+## Env
+PORT=8080
+CGO_ENABLED=1
+FUNCTION_SIGNATURE_TYPE=http
+DEBIAN_FRONTEND=noninteractive
+FUNCTION_TARGET=Env
+K_SERVICE=env113
+GOROOT=/usr/local/go/
+K_REVISION=1
+HOME=/root
+PATH=/layers/google.go.build/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/srv
+
+## Metadata
+### project
+project/attributes/?recursive=true: 
+project/attributes/disable-legacy-endpoints: 
+project/attributes/enable-oslogin: 
+project/attributes/vmdnssetting: 
+project/attributes/ssh-keys: 
+project/numeric-project-id: [GCP_PROJECT_NUM]
+project/project-id: [GCP_PROJECT]
+### instance
+instance/attributes/?recursive=true: 
+instance/attributes/enable-oslogin: 
+instance/attributes/vmdnssetting: 
+instance/attributes/ssh-keys: 
+instance/cpu-platform: 
+instance/description: 
+instance/disks/?recursive=true: 
+instance/guest-attributes/?recursive=true: 
+instance/hostname: 
+instance/id: [INSTANCE_ID]
+instance/machine-type: 
+instance/name: 
+instance/network-interfaces/?recursive=true: 
+instance/network-interfaces/0/access-configs/0/external-ip: 
+instance/network-interfaces/0/forwarded-ips/?recursive=true: 
+instance/scheduling/?recursive=true: 
+instance/scheduling/on-host-maintenance: 
+instance/scheduling/automatic-restart: 
+instance/scheduling/preemptible: 
+instance/maintenance-event: 
+instance/service-accounts/?recursive=true: [SERVICE_ACCOUNTS]
+instance/service-accounts/default/email: [GCP_PROJECT]@appspot.gserviceaccount.com
+instance/service-accounts/default/token: [TOKEN]
+instance/service-accounts/default/identity: 
+instance/tags: 
+instance/zone: projects/[GCP_PROJECT_NUM]/zones/[ZONE]
